@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to BiteMatch
 
 You can use the [editor on GitHub](https://github.com/MinhNguyen19/Company1.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
