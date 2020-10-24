@@ -11,22 +11,34 @@ body{
 }
 
 nav{
-    padding: 0;
-    margin: 0;
+    padding: auto;
+    margin: auto;
     font-family: Glacial Indefference;
-    color: burlywood;
     text-align: center;
+    text-decoration: none;
+    background-color: #222E50;
+    width: fit-content;
 }
 
 nav li{
     display: inline;
     list-style: none;
+    width: 50%;
+    text-align: justify;
+    
 }
-
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    width: auto;
+    
+}
 section{
     
     margin: auto;
     text-align: center;
+    width: 17.5%;
 
 }
 
@@ -43,7 +55,3 @@ section{
     width: auto;
 }
 
-li:hover {
-    opacity: 0.5;
-    background-color: darkgreen;
-}
