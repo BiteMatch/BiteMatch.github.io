@@ -1,0 +1,78 @@
+title {
+  display: none;
+}
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: blue;
+}
+
+
+.wrapper {
+display: flex;
+flex-direction: column;
+
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  min-height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+#box1 > .card{
+  background-color: white;
+}
+#box2 > .card{
+  background-color: white;
+}
+
+.card{
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 30%;
+  height: 100%;
+  min-height: 650px;
+}
+
+.hidden{
+  visibility: hidden;
+  color : #5B0424;
+  font-family: "Lucida Console"
+
+}
