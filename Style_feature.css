@@ -1,0 +1,57 @@
+@font-face{
+    font-family: 'Glacial Indefference';
+    src : url('fonts/glacial-indifference/GlacialIndifference-Bold.otf')
+}
+
+body{
+    background-image: url("images/Real.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px
+
+}
+
+nav{
+    padding: auto;
+    margin: auto;
+    font-family: Glacial Indefference;
+    text-align: center;
+    text-decoration: none;
+    background-color: #222E50;
+    width: fit-content;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    width: 50%;
+    text-align: justify;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+    width: auto;
+    
+}
+section{
+    
+    margin: auto;
+    text-align: center;
+    width: 17.5%;
+
+}
+
+.Liste h2{
+    
+    font-family: Glacial Indefference;
+    background-color: aliceblue;
+    opacity: 0.5;
+    
+}
+.Liste {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
