@@ -1,0 +1,106 @@
+@font-face{
+    font-family: Horizon; 
+    src: url("fonts/Horizon/Horizon.ttf")
+}
+@font-face{
+    font-family: glacial-indifference;
+    src: url("fonts/glacial-indifference/GlacialIndifference-Bold.otf")
+}
+body{
+    background-color: #e9d985;
+}
+
+#container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr;
+}
+
+.object_fit_scale_down{
+    object-fit: scale-down;
+    width: max-content;
+    height: max-content;
+}
+/* Left container */
+#left_container{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+/* + */
+#header_container{
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr 2fr;
+}
+
+/* ++ */
+#div_img_logo{
+    display: grid;
+    /* grid-column-start: 1;
+    grid-column-end: 2; */
+}
+
+#navigation{
+    display: grid;
+    /* grid-column-start: 2;
+    grid-column-end: auto; */
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    font-family: glacial-indifference;
+}
+/* + */
+#content_container{
+    display: grid;
+    grid-column: 1 / -1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+    grid-template-rows: 1fr 1fr;
+}
+/* ++ */
+#title_content{
+    font-family: Horizon;
+    text-align: center;
+}
+
+#subtitle_content{
+    font-family: glacial-indifference;
+    text-align: center
+}
+
+
+/* + */
+#div_mouse{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: -1;
+
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/* ++ */
+#img_mouse{
+    width: 100px;
+    height: 100px;
+    float: 
+
+    
+}
+
+/* Right container */
+#right_container{
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+/* ++ */
+#img_phone{
+    float: right;
+    width: 300px
+}
