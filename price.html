@@ -1,16 +1,25 @@
+<!DOCTYPE html>
 <html>
   <head>
-	<h1 style="text-align:center;">BiteMatch</h1>
-	<img src="logo.jpg" alt="logo" style="float: right;">
-	
+	<link rel="stylesheet" href="price.css">
+
+      <style>
+body {
+  background-image: url('images/background_price.png');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+      </style>
   </head>
   <body id="pricing-page">
+  <img src="images/logo.png" alt="logo" id="logo" >
     
     <div class="header">
       <div class="container">
         
 
-        <div class="navigation">
+        <div class="nav">
 		  <a href="index.html">Home</a>
           <a href="features.html">Features</a>
           <a href="pricing.html">Pricing</a>
@@ -21,60 +30,133 @@
         
       </div>
     </div>
-<br>
-	<br>
+  <br><br><br>
     <div class="content">
-      <div class="container">
-        <div class="download">
-          <div class="title"><h2>Free to Download</h2></div>
-          <div class="description">
-            BiteMatch is free to download for all users. Just install and sign up and you could be eating for free in no time.
-			<img src="food1.jpg" alt="food" style="float: right;">
+        <div class="buttonhead">
+            <button type="button"
+                    onclick="function downFunk() {
+                        document.getElementById('transaction').style.display='none';
+                        document.getElementById('promoted').style.display='none';
+                        document.getElementById('download').style.display='block';
+                    }
+                    downFunk()">Download</button><button type="button"
+                    onclick="function transFunk() {
+                        document.getElementById('transaction').style.display='block';
+                        document.getElementById('promoted').style.display='none';
+                        document.getElementById('download').style.display='none';
+                    }
+                    transFunk()">Transaction</button>
+
+            <button type="button"
+                    onclick="function proFunk() {
+                        document.getElementById('transaction').style.display='none';
+                        document.getElementById('promoted').style.display='block';
+                        document.getElementById('download').style.display='none';
+                    }
+                    proFunk()">Promoted</button>
+
+        </div>
+        <br><br><br>
+      <div class="priceDesc" id="desc">
+
+
+
+          <div class="download" id="download">
+
+              <table style="margin-left: 40px">
+                  <tr>
+                      <td style="height: min-content; font-size: x-large">
+                          Free to Download
+                      </td>
+                  </tr>
+                  <tr style="height: auto">
+                      <td style="width: 750px" >
+                          <div class="description" >
+                              BiteMatch is free to download for all users. <br>
+                              Just install and sign up and you could be <br>
+                              eating for free in no time.
+                          </div>
+                      </td>
+                      <td>
+                          <img src="images/phone_with_hand.png" alt="featured restauraunt" style="height: 264px; width: 200px; float: right;">
+                      </td>
+                  </tr>
+              </table>
           </div>
-        </div>
-		<br>
-	<br>
-	<br>
 
-        <div class="transaction">
-          <div class="title"><h2>Transaction Fee</h2></div>
-          <div class="description"> BiteMatch adds a 3% service fee to your food order. But if you win your match, you pay nothing at all!
-		  <img src="game1.jpg" alt="game" style="float: right;">
-		  </div>
-		  
-		  
-        </div>
-		<br>
-	<br>
-	<br>
 
-        <div class="promoted">
-          <div class="title"><h2>Best Bites Featured Restaurant Club</h2></div>
-          <div class="description"> 
-		  50$/month and a 3% service charge on all orders to your restaurant through BiteMatch <br>
-		  Promote your restaurant on BiteMatch. Join our exclusive club of featured restaurants. 
-		  Help users discover your delicious eatery by <br> putting your name at the top of our list in a food category for your local search page.
-		  Be featured on the front page of BiteMatch <br>for your city as one of our daily 'Best Bites' restaurants.
-		  <img src="featured.jpg" alt="featured restauraunt" style="float: right;">
-		  <br>
-		  
-		  
-		   
-		  </div>
-		  
+
+
+          <div class="transaction" id="transaction" style="display:none">
+
+              <table style="margin-left: 40px">
+                  <tr>
+                      <td style="height: min-content; font-size: x-large">
+                          Transaction Fee
+                      </td>
+                  </tr>
+                  <tr style="height: auto">
+                      <td style="width: 750px" >
+                          <div class="description" >
+                              BiteMatch adds a 3% service fee to your food <br>
+                              order. But if you win your match, you pay <br>
+                              nothing at all!
+                          </div>
+                      </td>
+                      <td>
+                          <img src="images/phone_with_hand.png" alt="featured restauraunt" style="height: 264px; width: 200px; float: right;">
+                      </td>
+                  </tr>
+              </table>
+          </div>
+
+
+
+
+
+
+
+        <div class="promoted" id="promoted" style="display:none">
+
+            <table style="margin-left: 40px">
+                <tr>
+                    <td style="height: min-content; font-size: x-large">
+                        Best Bites Featured Restaurant Club
+                    </td>
+                </tr>
+                <tr style="height: auto">
+                <td style="width: 750px" >
+          <div class="description" >
+		  50$/month and a 3% service charge on all orders <br>
+              to your restaurant through BiteMatch <br>
+              Promote your restaurant on BiteMatch by <br>
+              joining our exclusive club of featured restaurants. <br>
+		  Help users discover your delicious eatery by <br>
+              putting your name at the top of our list in a <br>
+              food category for your local search page.<br>
+		  Be featured on the front page of BiteMatch <br>
+              for your city as one of our daily 'Best Bites' restaurants.
+          </div>
+                </td>
+                <td>
+		  <img src="images/phone_with_hand.png" alt="featured restauraunt" style="height: 264px; width: 200px; float: right;">
+                </td>
+                </tr>
+
+            </table>
+        </div>
         </div>
         
       </div>
 
 
-    </div>
-	<div class="bottom">
-	<br>
-	
 
-	<br>
+  <!--
+	<div class="bottom">
+
 	<a href="TOS.html">Terms of Service</a>
-		
+   </div>
+   -->
 
   </body>
 </html>

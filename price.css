@@ -1,4 +1,63 @@
-#priceTable {
-  width: 100%;
-  background-color: #f1f1c1;
+@font-face{
+    font-family: 'Glacial Indefference';
+    src : url('fonts/glacial-indifference/GlacialIndifference-Bold.otf')
 }
+@font-face {
+    font-family: 'Horizon';
+    src : url('fonts/horizon/Horizon.otf')
+}
+#logo {
+    width: 100px;
+    height: 100px;
+
+    left:20px;
+    top:20px;
+}
+
+.nav {
+    font-family: Glacial Indefference;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+
+    top: 10px;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.priceDesc {
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: 'Glacial Indefference';
+    background-color: #E9D985;
+    height: 300px;
+
+
+}
+
+
+
+
