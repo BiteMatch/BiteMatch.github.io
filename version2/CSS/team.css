@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Satisfy';
+  src : url('../fonts/Satisfy-Regular.ttf');
+}
+@font-face{
+  font-family: 'Nunito';
+  src: url('../fonts/Nunito-ExtraLightItalic.ttf');
+}
+@font-face{
+  font-family: 'Staalich';
+  src : url('../fonts/Staatliches-Regular.ttf')
+}
+
+
+title {
+  display: none;
+}
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+body
+{
+    background-image: url("../images/legume.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+header{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 150px;
+    font-family: Satisfy;
+    text-decoration: underline;
+    color: #F6D9C4;
+}
+
+nav {
+    width: auto;
+    text-align: center;
+    font-family: Staalich;
+}
+nav a {
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 2.5em;
+    color:burlywood;
+    width: 200px;
+}
+
+a:hover{ 
+    background-color:burlywood;
+    color: beige;
+    width: 200px;
+}
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: blue;
+}
+
+
+.wrapper {
+display: flex;
+flex-direction: column;
+
+}
+
+.box{
+  width: 100%;
+  height: 50%;
+  min-height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+#box1 > .card{
+  background-color: burlywood;
+  color: white;
+}
+#box2 > .card{
+  background-color:burlywood;
+  color: white;
+
+}
+
+.card{
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 30%;
+  height: 100%;
+  min-height: 650px;
+ 
+
+}
+
+.hidden{
+  visibility: hidden;
+  color : #5B0424;
+  font-family: "Lucida Console"
+
+}
