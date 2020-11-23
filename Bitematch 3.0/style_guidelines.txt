@@ -1,0 +1,24 @@
+Style Guidelines for BiteMatch
+===============================
+
+The background for all pages will be the legume.jpg file in images
+
+Colours
+========
+
+Navigation: #F6D9C4, white
+Text: burlywood
+Highlighted text: beige
+
+
+Typography
+==========
+Navigation: Satisfy
+Text: Staalich
+
+
+Links
+=====
+Hovering over links will cause a the text to change to white and a burlywood 
+square to surround the text
+
